@@ -53,6 +53,31 @@
 		344E5EF6261C663F0009C6BF /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E5EF5261C663F0009C6BF /* EmptyView.swift */; };
 		344E5EF9261C66AE0009C6BF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E5EF8261C66AE0009C6BF /* Menu.swift */; };
 		344E5EFC261C6A030009C6BF /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344E5EFB261C6A030009C6BF /* Shapes.swift */; };
+		3474AC4F265503EB005C7454 /* TapGestureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC4E265503EB005C7454 /* TapGestureModifier.swift */; };
+		3474AC5126550579005C7454 /* MagnificationGestureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC5026550579005C7454 /* MagnificationGestureModifier.swift */; };
+		3474AC5326550682005C7454 /* RotationGestureModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC5226550682005C7454 /* RotationGestureModifer.swift */; };
+		3474AC552655071D005C7454 /* DragGestureModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC542655071D005C7454 /* DragGestureModifer.swift */; };
+		3474AC57265507D8005C7454 /* CombineGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC56265507D8005C7454 /* CombineGesture.swift */; };
+		3474AC5B26550974005C7454 /* PriorityGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC5A26550974005C7454 /* PriorityGesture.swift */; };
+		3474AC5E26551531005C7454 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC5D26551531005C7454 /* ImageTransition.swift */; };
+		3474AC6026551661005C7454 /* AsymmetricTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC5F26551661005C7454 /* AsymmetricTransition.swift */; };
+		3474AC622655172A005C7454 /* AnimatedPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC612655172A005C7454 /* AnimatedPlayButton.swift */; };
+		3474AC642655182B005C7454 /* AnimatedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC632655182B005C7454 /* AnimatedProgressView.swift */; };
+		3474AC6626551953005C7454 /* AnimatedCardFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC6526551953005C7454 /* AnimatedCardFlip.swift */; };
+		3474AC6926551ED9005C7454 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC6826551ED9005C7454 /* Data.swift */; };
+		3474AC6B26551F28005C7454 /* ReactedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474AC6A26551F28005C7454 /* ReactedView.swift */; };
+		34876D132653BC8900043592 /* TextRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34876D122653BC8900043592 /* TextRelatedViews.swift */; };
+		34876D152653BCA800043592 /* LayoutRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34876D142653BCA800043592 /* LayoutRelatedViews.swift */; };
+		34876D172653BCCC00043592 /* ShapeRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34876D162653BCCC00043592 /* ShapeRelatedViews.swift */; };
+		34876D192653BEDB00043592 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34876D182653BEDB00043592 /* ControlRelatedViews.swift */; };
+		34876D1B2653D1D300043592 /* HierarchyRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34876D1A2653D1D300043592 /* HierarchyRelatedViews.swift */; };
+		34876D1D2653E3F300043592 /* ContentsRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34876D1C2653E3F300043592 /* ContentsRelatedViews.swift */; };
+		34F132AE2654B25D00048DFA /* TextRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F132AD2654B25D00048DFA /* TextRelatedModifiers.swift */; };
+		34F132B02654B33500048DFA /* FZKai-Z03S.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34F132AF2654B33500048DFA /* FZKai-Z03S.ttf */; };
+		34F132B22654B97500048DFA /* LayoutRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F132B12654B97500048DFA /* LayoutRelatedModifiers.swift */; };
+		34F132B42654EC1A00048DFA /* ImageRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F132B32654EC1A00048DFA /* ImageRelatedModifiers.swift */; };
+		34F132B62654F17F00048DFA /* EffectRelatedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F132B52654F17F00048DFA /* EffectRelatedModifiers.swift */; };
+		34F132BC265501BC00048DFA /* LongPressGestureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F132BB265501BC00048DFA /* LongPressGestureModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +129,31 @@
 		344E5EF5261C663F0009C6BF /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		344E5EF8261C66AE0009C6BF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		344E5EFB261C6A030009C6BF /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		3474AC4E265503EB005C7454 /* TapGestureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureModifier.swift; sourceTree = "<group>"; };
+		3474AC5026550579005C7454 /* MagnificationGestureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureModifier.swift; sourceTree = "<group>"; };
+		3474AC5226550682005C7454 /* RotationGestureModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureModifer.swift; sourceTree = "<group>"; };
+		3474AC542655071D005C7454 /* DragGestureModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureModifer.swift; sourceTree = "<group>"; };
+		3474AC56265507D8005C7454 /* CombineGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineGesture.swift; sourceTree = "<group>"; };
+		3474AC5A26550974005C7454 /* PriorityGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityGesture.swift; sourceTree = "<group>"; };
+		3474AC5D26551531005C7454 /* ImageTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		3474AC5F26551661005C7454 /* AsymmetricTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransition.swift; sourceTree = "<group>"; };
+		3474AC612655172A005C7454 /* AnimatedPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPlayButton.swift; sourceTree = "<group>"; };
+		3474AC632655182B005C7454 /* AnimatedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedProgressView.swift; sourceTree = "<group>"; };
+		3474AC6526551953005C7454 /* AnimatedCardFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCardFlip.swift; sourceTree = "<group>"; };
+		3474AC6826551ED9005C7454 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3474AC6A26551F28005C7454 /* ReactedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactedView.swift; sourceTree = "<group>"; };
+		34876D122653BC8900043592 /* TextRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelatedViews.swift; sourceTree = "<group>"; };
+		34876D142653BCA800043592 /* LayoutRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedViews.swift; sourceTree = "<group>"; };
+		34876D162653BCCC00043592 /* ShapeRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRelatedViews.swift; sourceTree = "<group>"; };
+		34876D182653BEDB00043592 /* ControlRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedViews.swift; sourceTree = "<group>"; };
+		34876D1A2653D1D300043592 /* HierarchyRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyRelatedViews.swift; sourceTree = "<group>"; };
+		34876D1C2653E3F300043592 /* ContentsRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsRelatedViews.swift; sourceTree = "<group>"; };
+		34F132AD2654B25D00048DFA /* TextRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelatedModifiers.swift; sourceTree = "<group>"; };
+		34F132AF2654B33500048DFA /* FZKai-Z03S.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FZKai-Z03S.ttf"; sourceTree = "<group>"; };
+		34F132B12654B97500048DFA /* LayoutRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutRelatedModifiers.swift; sourceTree = "<group>"; };
+		34F132B32654EC1A00048DFA /* ImageRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRelatedModifiers.swift; sourceTree = "<group>"; };
+		34F132B52654F17F00048DFA /* EffectRelatedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectRelatedModifiers.swift; sourceTree = "<group>"; };
+		34F132BB265501BC00048DFA /* LongPressGestureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +203,7 @@
 		343764C326135A8600C672D4 /* SwiftUIViews */ = {
 			isa = PBXGroup;
 			children = (
+				34876D0F2653B17500043592 /* Originator */,
 				344E5EF0261C64500009C6BF /* Other */,
 				344E5EE5261C55E70009C6BF /* Paints */,
 				343764C826135A8700C672D4 /* Assets.xcassets */,
@@ -227,6 +278,78 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		3474AC5C265514D8005C7454 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3474AC5D26551531005C7454 /* ImageTransition.swift */,
+				3474AC612655172A005C7454 /* AnimatedPlayButton.swift */,
+				3474AC632655182B005C7454 /* AnimatedProgressView.swift */,
+				3474AC6526551953005C7454 /* AnimatedCardFlip.swift */,
+				3474AC5F26551661005C7454 /* AsymmetricTransition.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3474AC6726551ECB005C7454 /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3474AC6826551ED9005C7454 /* Data.swift */,
+				3474AC6A26551F28005C7454 /* ReactedView.swift */,
+			);
+			path = DataFlow;
+			sourceTree = "<group>";
+		};
+		34876D0F2653B17500043592 /* Originator */ = {
+			isa = PBXGroup;
+			children = (
+				3474AC6726551ECB005C7454 /* DataFlow */,
+				3474AC5C265514D8005C7454 /* Animations */,
+				34F132BA2655014200048DFA /* Gestures */,
+				34F132AF2654B33500048DFA /* FZKai-Z03S.ttf */,
+				34F132B82655012900048DFA /* Views */,
+				34F132B92655013400048DFA /* Modifiers */,
+			);
+			path = Originator;
+			sourceTree = "<group>";
+		};
+		34F132B82655012900048DFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34876D122653BC8900043592 /* TextRelatedViews.swift */,
+				34876D142653BCA800043592 /* LayoutRelatedViews.swift */,
+				34876D162653BCCC00043592 /* ShapeRelatedViews.swift */,
+				34876D182653BEDB00043592 /* ControlRelatedViews.swift */,
+				34876D1A2653D1D300043592 /* HierarchyRelatedViews.swift */,
+				34876D1C2653E3F300043592 /* ContentsRelatedViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34F132B92655013400048DFA /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				34F132AD2654B25D00048DFA /* TextRelatedModifiers.swift */,
+				34F132B12654B97500048DFA /* LayoutRelatedModifiers.swift */,
+				34F132B32654EC1A00048DFA /* ImageRelatedModifiers.swift */,
+				34F132B52654F17F00048DFA /* EffectRelatedModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		34F132BA2655014200048DFA /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				34F132BB265501BC00048DFA /* LongPressGestureModifier.swift */,
+				3474AC4E265503EB005C7454 /* TapGestureModifier.swift */,
+				3474AC5026550579005C7454 /* MagnificationGestureModifier.swift */,
+				3474AC5226550682005C7454 /* RotationGestureModifer.swift */,
+				3474AC542655071D005C7454 /* DragGestureModifer.swift */,
+				3474AC56265507D8005C7454 /* CombineGesture.swift */,
+				3474AC5A26550974005C7454 /* PriorityGesture.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F132B02654B33500048DFA /* FZKai-Z03S.ttf in Resources */,
 				343764CC26135A8700C672D4 /* Preview Assets.xcassets in Resources */,
 				343764C926135A8700C672D4 /* Assets.xcassets in Resources */,
 			);
@@ -297,39 +421,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				343764FF2615AD0800C672D4 /* NavigationView.swift in Sources */,
+				3474AC642655182B005C7454 /* AnimatedProgressView.swift in Sources */,
+				34876D152653BCA800043592 /* LayoutRelatedViews.swift in Sources */,
+				34876D132653BC8900043592 /* TextRelatedViews.swift in Sources */,
 				343765022615AD7D00C672D4 /* OutlineGroup.swift in Sources */,
+				34876D192653BEDB00043592 /* ControlRelatedViews.swift in Sources */,
 				3413DC462615E82400EA04D2 /* TextEditor.swift in Sources */,
+				34876D1B2653D1D300043592 /* HierarchyRelatedViews.swift in Sources */,
 				3413DC542616BE1100EA04D2 /* HStack.swift in Sources */,
 				343764C726135A8600C672D4 /* ContentView.swift in Sources */,
+				3474AC6926551ED9005C7454 /* Data.swift in Sources */,
+				3474AC552655071D005C7454 /* DragGestureModifer.swift in Sources */,
 				343764EB2614A4EE00C672D4 /* Form.swift in Sources */,
+				34876D1D2653E3F300043592 /* ContentsRelatedViews.swift in Sources */,
 				3413DC5D2617073200EA04D2 /* LazyVGrid.swift in Sources */,
 				3413DC492615E92400EA04D2 /* TextField.swift in Sources */,
 				343764DF2614755C00C672D4 /* ColorPicker.swift in Sources */,
+				34F132B42654EC1A00048DFA /* ImageRelatedModifiers.swift in Sources */,
 				343765062615BA6200C672D4 /* Picker.swift in Sources */,
+				3474AC6B26551F28005C7454 /* ReactedView.swift in Sources */,
 				3413DC342615CBFC00EA04D2 /* Section.swift in Sources */,
 				3413DC2E2615C7EE00EA04D2 /* ProgressView.swift in Sources */,
 				344E5EF9261C66AE0009C6BF /* Menu.swift in Sources */,
+				34F132AE2654B25D00048DFA /* TextRelatedModifiers.swift in Sources */,
 				343764E8261482BC00C672D4 /* EditButton.swift in Sources */,
+				34F132B22654B97500048DFA /* LayoutRelatedModifiers.swift in Sources */,
 				343764F5261565D000C672D4 /* Link.swift in Sources */,
+				34F132BC265501BC00048DFA /* LongPressGestureModifier.swift in Sources */,
 				3413DC6326170E3F00EA04D2 /* ScrollViewReader.swift in Sources */,
 				3413DC432615E59D00EA04D2 /* Text.swift in Sources */,
 				3413DC6626171FBB00EA04D2 /* Spacer.swift in Sources */,
 				343764F826156AAD00C672D4 /* List.swift in Sources */,
 				344E5EFC261C6A030009C6BF /* Shapes.swift in Sources */,
 				3413DC502615F78100EA04D2 /* GeometryReader.swift in Sources */,
+				3474AC5326550682005C7454 /* RotationGestureModifer.swift in Sources */,
 				343764E52614809700C672D4 /* DisclosureGroup.swift in Sources */,
 				343764D62614596600C672D4 /* Button.swift in Sources */,
+				3474AC5B26550974005C7454 /* PriorityGesture.swift in Sources */,
 				3413DC3A2615D10600EA04D2 /* Slider.swift in Sources */,
 				343764C526135A8600C672D4 /* SwiftUIViewsApp.swift in Sources */,
 				3413DC4C2615EC1300EA04D2 /* Toggle.swift in Sources */,
 				344E5EE8261C56660009C6BF /* AngularGradient.swift in Sources */,
+				34F132B62654F17F00048DFA /* EffectRelatedModifiers.swift in Sources */,
+				3474AC622655172A005C7454 /* AnimatedPlayButton.swift in Sources */,
 				343764E22614772600C672D4 /* DatePicker.swift in Sources */,
 				3413DC6026170D7100EA04D2 /* LazyVStack.swift in Sources */,
 				3413DC372615CEEF00EA04D2 /* SecureField.swift in Sources */,
 				343764FB26157B0400C672D4 /* NavigationLink.swift in Sources */,
+				34876D172653BCCC00043592 /* ShapeRelatedViews.swift in Sources */,
 				344E5EE3261C53390009C6BF /* ZStack.swift in Sources */,
 				343764F12614AAD200C672D4 /* Label.swift in Sources */,
 				344E5EF2261C64610009C6BF /* Divider.swift in Sources */,
+				3474AC5E26551531005C7454 /* ImageTransition.swift in Sources */,
 				3413DC3D2615D44800EA04D2 /* Stepper.swift in Sources */,
 				3413DC402615E16F00EA04D2 /* TabView.swift in Sources */,
 				343764EE2614A93F00C672D4 /* GroupBox.swift in Sources */,
@@ -338,7 +481,12 @@
 				3413DC5A2617061C00EA04D2 /* LazyHStack.swift in Sources */,
 				3413DC572616BFFA00EA04D2 /* LazyHGrid.swift in Sources */,
 				3413DC312615CA0D00EA04D2 /* ScrollView.swift in Sources */,
+				3474AC57265507D8005C7454 /* CombineGesture.swift in Sources */,
+				3474AC6026551661005C7454 /* AsymmetricTransition.swift in Sources */,
 				344E5EF6261C663F0009C6BF /* EmptyView.swift in Sources */,
+				3474AC5126550579005C7454 /* MagnificationGestureModifier.swift in Sources */,
+				3474AC6626551953005C7454 /* AnimatedCardFlip.swift in Sources */,
+				3474AC4F265503EB005C7454 /* TapGestureModifier.swift in Sources */,
 				3413DC692617231C00EA04D2 /* VStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIViews/SwiftUIViews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIViews/Preview Content\"";
 				DEVELOPMENT_TEAM = KJ39KMP96U;
@@ -479,6 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pengzhixin.SwiftUIViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -489,6 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIViews/SwiftUIViews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIViews/Preview Content\"";
 				DEVELOPMENT_TEAM = KJ39KMP96U;
@@ -501,6 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pengzhixin.SwiftUIViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

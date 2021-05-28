@@ -23,6 +23,92 @@ struct ContentView: View {
 
 struct ControlSection: View {
     var body: some View {
+        Section(header: Text("创作者的 IOS 独立开发指南")) {
+            Group {
+                NavigationLink(destination: TextRelatedViews()){
+                    Text("文本视图")
+                }
+                NavigationLink(destination: LayoutRelatedViews()) {
+                    Text("排版视图")
+                }
+                NavigationLink(destination: ShapeRelatedViews()) {
+                    Text("绘图视图")
+                }
+                NavigationLink(destination: ControlRelatedViews()) {
+                    Text("控制视图")
+                }
+                NavigationLink(destination: HierarchyRelatedViews()) {
+                    Text("层级视图")
+                }
+                NavigationLink(destination: ContentsRelatedViews()) {
+                    Text("信息视图")
+                }
+            }
+            
+            Group {
+                NavigationLink(destination: TextRelatedModifiers()) {
+                    Text("文本修改器")
+                }
+                NavigationLink(destination: LayoutRelatedModifiers()) {
+                    Text("视图修改器")
+                }
+                NavigationLink(destination: ImageRelatedModifiers()) {
+                    Text("图片修改器")
+                }
+                NavigationLink(destination: EffectRelatedModifiers()) {
+                    Text("效果修改器")
+                }
+            }
+            
+            Group {
+                NavigationLink(destination: LongPressGestureModifier()) {
+                    Text("长按手势")
+                }
+                NavigationLink(destination: TapGestureModifier()) {
+                    Text("轻点手势")
+                }
+                NavigationLink(destination: MagnificationGestureModifier()) {
+                    Text("缩放手势")
+                }
+                NavigationLink(destination: RotationGestureModifer()) {
+                    Text("旋转手势")
+                }
+                NavigationLink(destination: DragGestureModifer()) {
+                    Text("拖拽手势")
+                }
+                NavigationLink(destination: CombineGesture()) {
+                    Text("进阶组合手势")
+                }
+                NavigationLink(destination: PriorityGesture()) {
+                    Text("手势优先级")
+                }
+            }
+            
+            Group {
+                NavigationLink(destination: ImageTransition()) {
+                    Text("过渡效果")
+                }
+                NavigationLink(destination: AsymmetricTransition()) {
+                    Text("非对称过渡")
+                }
+                NavigationLink(destination: AnimatedPlayButton()) {
+                    Text("播放暂停按钮")
+                }
+                NavigationLink(destination: AnimatedProgressView()) {
+                    Text("载入进度条")
+                }
+                NavigationLink(destination: AnimatedCardFlip()) {
+                    Text("翻牌特效")
+                }
+            }
+            
+            Group {
+                NavigationLink(destination: ReactedView()) {
+                    Text("数据流")
+                }
+            }
+        }
+        
         Section(header: Text("Controls")) {
             Group {
                 NavigationLink(destination: ButtonSection()){
