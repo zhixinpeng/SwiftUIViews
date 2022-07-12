@@ -70,7 +70,7 @@ struct ControlRelatedViews: View {
                 Text("Picker")
                     .font(.headline)
                 Picker("Picker", selection: $pickerValue) {
-                    ForEach(0..<pickerOptions.count) { index in
+                    ForEach(0..<pickerOptions.count, id: \.self) { index in
                         Text(pickerOptions[index]).tag(index)
                     }
                 }

@@ -70,7 +70,7 @@ struct ContentsRelatedViews: View {
                         }
                         
                         Picker(selection: $selectedDuration, label: Text("目标市场")) {
-                            ForEach(0..<targetDurations.count) {
+                            ForEach(0..<targetDurations.count, id: \.self) {
                                 Text(targetDurations[$0])
                             }
                         }

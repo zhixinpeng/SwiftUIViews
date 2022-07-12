@@ -44,7 +44,7 @@ struct CustomEditButton: View {
     
     var body: some View {
         NavigationView {
-            List(0..<sampleData.count){i in
+            List(0..<sampleData.count, id: \.self){i in
                 if isEditMode == .active {
                     TextField("水果", text: $sampleData[i])
                 } else {
